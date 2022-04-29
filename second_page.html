@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body class="spbackground">
+    <div class="back">
+        <a href="index.html"><img src="images/images_for_second_page/back_icon.png" class="back_icon"></a>
+    </div>
+    <div>
+        <p><br><br></p>
+        <p><br></p>
+    </div>
+    <div class="background2">
+        <h1>COFFEE BLENDS<br>SELECTION</h1>
+    </div>
+    <div class="classic">
+        <p>Classic Coffee Selection</p>
+        <img src="images/images_for_second_page/benguet1.PNG" alt="coffee1" class="Ben">
+        <img src="images/images_for_second_page/sagada1.PNG" alt="coffee2" class="Sag">
+    </div>
+    <div class="flavored">
+        <p>Flavored Coffee Selection</p>
+        <img src="images/images_for_second_page/macadamia1.PNG" alt="coffee3" class="Mac">
+        <img src="images/images_for_second_page/butterscotch1.PNG" alt="coffee4" class="But">
+    </div>
+    <div class="ice">
+        <p>Iced Coffee Selection</p>
+        <img src="images/images_for_second_page/ice_coffee.PNG" alt="coffee5" class="Ice">
+        <img src="images/images_for_second_page/cold_brew.PNG" alt="coffee6" class="Col">
+    </div>
+    <div>
+        <div class="billing">
+            <h1>Billings Section</h1>
+            <input type="date">
+            <input type="month"><br>
+            <p></p>
+            <form method="POST">
+                <fieldset>
+                    <legend class="leg1"> Please Fill up for your Purchased Delivery</legend>
+                    <p class="p1">Name: <input type="text" placeholder="Nickname is accepted" required></p>
+                    <p class="p1">Address: <input type="text"  placeholder="Current address" required></p>
+                    <label><p class="cc1">Choose your Coffee choice</p></label><input list="coffeelist">
+                    <datalist id="coffeelist">
+                            <option value=" Benguet  Price: ₱100"></option>
+                            <option value=" Sagada Dark  Price: ₱120"></option>
+                            <option value=" Macadamia Nut Latte  Price: ₱150"></option>
+                            <option value=" butterscotch  Price: ₱80"></option>
+                            <option value=" Ice Coffee  Price: ₱75"></option>
+                            <option value=" Brewed Coffee  Price: ₱75"></option>
+                        </datalist>
+                        <label><p class="tt1">Quantity</p></label><input list="quantity">
+                        <datalist id="quantity">
+                                <option value=" 1"></option>
+                                <option value=" 2"></option>
+                                <option value=" 3"></option>
+                                <option value=" 4"></option>
+                                <option value=" 5"></option>
+                            </datalist>
+                    <hr color="white">
+                    <hr color="green">
+                    <legend class="leg1">Your message here(optional)</legend><br>
+                    <textarea></textarea><br><br>
+                    <input type="reset" value="CLEAR">      
+                    <input type="submit" value="OKAY">
+                </fieldset>
+            </form>
+            <p class="p01">Thank you for your purchased my dear customer.</p>
+            <p class="p01">Enjoy your Drinks</p>
+        </div>
+         
+    </div>
+</body>
+</html>

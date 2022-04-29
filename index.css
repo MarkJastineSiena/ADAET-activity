@@ -1,0 +1,267 @@
+body{
+   background-image: url('images/body_background.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+div.header{
+    background-image: url('images/header.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 1px;
+}
+div.header h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: solid;
+    color: whitesmoke;
+    padding-top: 0px;
+    text-shadow: 5px 2px red;
+}
+div.header p{
+    text-align: center;
+    font-size:25px;
+    text-decoration: solid;
+    color: whitesmoke;
+    margin-bottom: 3px;
+    font-style: italic;
+    padding-bottom: 10px;
+    border-bottom: 20px;
+    text-shadow: 3px 3px grey;
+}
+
+div.header div.menu{
+    height:50px;
+    width:1500px;
+    margin-right:auto;
+    margin-left: 290px;
+    border-width:0px;
+    border-style:solid;
+}
+div.header div.menu ul{
+    padding: 0;
+    list-style: none;
+}
+div.header div.menu ul li{
+    float: left;
+    width: 150px;
+    text-align: center;
+    font-size: large;
+}
+div.header div.menu ul li a{
+    display: block;
+    padding: 3px 3px;
+    color: white;
+    background: grey;
+    text-decoration: none;
+}
+div.header div.menu ul li a:hover{
+    color: #fff;
+    background: gold;
+}
+div.coffee_1 h1{
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    text-overflow: unset;
+}
+div.coffee_1 img{
+    width: 400px;
+    height: 300px;
+    margin-left: 460px;
+    border-radius: 10px;
+}
+div.coffee_1 h2{
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    text-overflow: unset;
+    text-decoration: underline;
+}
+div.coffee_1 p{
+    text-align: center;
+    font-size:20px;
+    text-decoration: solid;
+    color: black;
+    margin-bottom: px;
+    padding-bottom: 10px;
+    border-bottom: 20px;
+    text-shadow: 1px 0px black;
+    line-height: 3px;
+}
+div.coffee_2 img{
+    width: 550px;
+    height: 250px;
+    margin-left: 400px;
+    border-radius: 10px;
+}
+div.coffee_2 h2{
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    text-overflow: unset;
+    text-decoration: underline;
+}
+div.coffee_2 p{
+    text-align: center;
+    font-size:20px;
+    text-decoration: solid;
+    color: black;
+    margin-bottom: px;
+    padding-bottom: 10px;
+    border-bottom: 20px;
+    text-shadow: 1px 0px black;
+    line-height: 3px;
+}
+div.icon img.forward{
+    float:right;
+    width: 70px;
+    height: 70px;
+}
+div.icon p{
+    float: right;
+    font-size: large;
+}
+div.footer{
+    background-image: url('images/footer.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 100px;
+}
+div.footer h4{
+    padding-top: 10px;
+    color: white;
+}
+div.footer h5{
+    line-height: 5px;
+    color: white;
+}
+div.footer p{
+    line-height: 5px;
+    color: white;
+    font-size: large;
+}
+div.footer img.icon1{
+    width: 60px;
+    height:50px;
+    border-radius: 20px;
+}
+div.footer img.icon2{
+    width: 60px;
+    height:50px;
+    border-radius: 20px;
+}
+div.footer img.icon3{
+    width: 60px;
+    height:50px;
+    border-radius: 20px;
+}
+div.footer img.icon4{
+    width: 60px;
+    height:50px;
+    border-radius: 20px;
+}
+div.footer hr{
+    size: 200px;
+    width: 400px;
+}
+/*CSS FOR SECOND PAGE*/
+body.spbackground{
+    background-image: url('images/images_for_second_page/background.jpeg');
+    background-attachment: fixed;
+
+}
+div.back img.back_icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+div.background2 h1{
+    color:white;
+    text-align: center;
+    text-decoration:dashed;
+    background-image: linear-gradient(to bottom right, orange, pink)
+}
+div.classic p{
+    color:white;
+    margin-left: 100px;
+    font-size: x-large;
+    text-decoration: underline;
+}
+div.classic img.Ben {
+    margin-left: 400px;
+    border-radius: 5px;
+    display: inline;
+}
+div.classic img.Sag{
+    margin-right: 400px;
+    border-radius: 5px;
+    display: inline;
+}
+
+div.flavored p{
+    color:white;
+    margin-left: 100px;
+    font-size: x-large;
+    text-decoration: underline;
+}
+div.flavored img.Mac{
+    margin-left: 400px;
+    border-radius: 5px;
+    display: inline;
+}
+div.flavored img.But{
+    margin-right: 300px;
+    border-radius: 5px;
+    display: inline
+}
+div.ice p{
+    color:white;
+    margin-left: 100px;
+    font-size: x-large;
+    text-decoration: underline;
+}
+div.ice img.Ice{
+    margin-left: 400px;
+    border-radius: 5px;
+    display: inline;
+}
+div.ice img.Col{
+    margin-right: 300px;
+    border-radius: 5px;
+    display: inline
+}
+div.billing h1{
+    color:white;
+    margin-left: 20px;  
+}
+div.billing legend.leg1{
+    color: white;
+}
+div.billing p.p1{
+    color: white;
+}
+div.billing p.cc1{
+    color: white;
+    margin-left: 5px;
+}
+div.billing p.tt1{
+    color: white;
+    margin-left: 60px;
+}
+div.billing p.p01{
+    color: white;
+    text-align: center;
+}
+div.billing p.p02{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
